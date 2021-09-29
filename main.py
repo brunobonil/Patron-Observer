@@ -18,6 +18,5 @@ def main():
     alquiler1.setEstado("No Disponible")
 
 
-
 if __name__ == "__main__":
     main()

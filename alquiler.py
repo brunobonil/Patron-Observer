@@ -1,7 +1,7 @@
 from sujeto import Sujeto
 
 class Alquiler(Sujeto):
-    def __init__(self, estado=""):
+    def __init__(self, estado=str):
         self.estado = estado
 
     def setEstado(self, estado):
