@@ -10,3 +10,13 @@ class Alquiler(Sujeto):
 
     def getEstado(self):
         return self.estado
+
+@property
+
+def estado(self):
+    return self.estado
+
+@estado.setter
+
+def estado(self, value):
+    self.estado = value
